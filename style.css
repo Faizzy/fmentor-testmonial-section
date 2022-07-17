@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    .peoples {
+        display: flex;
+    }
+    .top {
+        display: flex;
+    }
+    .bottom {
+        display: flex;
+    }
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: hsl(210, 46%, 95%);
+}
+    .profile {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    h4 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .profileMain {
+        display: flex;
+    }
+        .profile-text {
+            margin-left: 15px;
+        }
+        .profile-text h1{
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .profile-text h2 {
+            font-size: 11px;
+            margin-top: 3px;
+            font-weight: 500;
+        }
+        #img-dani {
+            border: solid 3px hsl(263, 55%, 70%);
+        }
+
+    .daniel {
+        background-color: hsl(263, 55%, 52%);
+        width: 540px;
+        height: 280px;
+        padding: 30px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+        .daniel h1{
+            color: hsl(0, 0%, 81%);
+        }
+        .daniel h2{
+            color: hsl(263, 55%, 70%);
+        }
+        .daniel h4{
+            color: hsl(0, 0%, 100%);
+        }
+        .daniel p {
+            color: hsl(0, 0%, 70%);
+        }
+    .jonathan {
+        background-color: hsl(217, 19%, 35%);
+        width: 255px;
+        height: 280px;
+        padding: 30px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+        #img-jon {
+            border: solid 3px hsl(217, 19%, 35%);
+        }
+        .jonathan h1{
+            color: hsl(0, 0%, 81%);
+        }
+        .jonathan h2{
+            color: hsl(0, 0%, 50%);
+        }
+        .jonathan h4{
+            color: hsl(0, 0%, 100%);
+        }
+        .jonathan p{
+            color: hsl(0, 0%, 70%);
+        }
+    .jeanette{
+        width: 255px;
+        height: 280px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 30px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+        #img-jen {
+            border: solid 3px hsl(0, 0%, 100%);
+        }
+        .jeanette h1{
+            color: hsl(219, 29%, 14%);
+        }
+        .jeanette h2{
+            color: hsla(219, 29%, 14%, 0.5);
+        }
+        .jeanette h4{
+            color: hsl(219, 29%, 14%);
+        }
+        .jeanette p{
+            color: hsla(219, 29%, 14%,0.7);
+        }
+    .patrick {
+        width: 540px;
+        height: 280px;
+        background-color: hsl(219, 29%, 14%);
+        padding: 30px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+        #img-pat {
+            border: solid 3px hsl(263, 55%, 52%);
+        }
+        .patrick h1{
+            color: hsla(0, 0%, 81%, 1);
+        }
+        .patrick h2{
+            color: hsla(0, 0%, 81%, 0.5);
+        }
+        .patrick h4 {
+            color: hsla(0, 0%, 81%, 1);
+        }
+        .patrick p{
+            color: hsla(0, 0%, 81%, 0.7);
+        }
+    .kira {
+        width: 255px;
+        height: 580px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 30px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+        #img-kira {
+            border: solid 3px hsl(0, 0%, 100%);
+        }
+        .kira h1{
+            color: hsl(219, 29%, 14%);
+        }
+        .kira h2{
+            color: hsla(219, 29%, 14%, 0.5);
+        }
+        .kira h4{
+            color: hsl(219, 29%, 14%);
+        }
+        .kira p{
+            color: hsla(219, 29%, 14%,0.7);
+        }
+
+@media screen and (max-width: 375px) {
+    .container {
+        display: block;     
+    }
+    .peoples {
+        display: block;
+        margin-top: 1000px;
+    }
+    .daniel , .jonathan , .jeanette , .patrick , .kira {
+        width: 300px;
+        height: auto;
+        margin: 30px;
+    }
+    .top, .bottom {
+        display: block;
+    }
+}
